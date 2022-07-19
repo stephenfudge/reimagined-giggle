@@ -1,7 +1,12 @@
+import logo from '../images/name.png'
+
 const AboutMe = () => {
     return(
     <div>
-ABOUT ME SECTION
+<header>
+    <img src={logo} />
+    My name is Stephen Fudge, and I am dope.
+</header>
     </div>
     )
 }

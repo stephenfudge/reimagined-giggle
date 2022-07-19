@@ -1,9 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import Nav from './components/Nav';
-import AboutMe from './pages/AboutMe';
-import Footer from './components/Footer';
+import 'bulma/css/bulma.min.css';
+
 import { useState } from 'react';
+
+import Nav from './components/Nav';
+import Footer from './components/Footer';
+
+import AboutMe from './pages/AboutMe';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 
