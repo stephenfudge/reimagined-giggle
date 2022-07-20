@@ -1,5 +1,6 @@
 import './Nav.css';
 import logo from '../images/name.png'
+import name from '../images/name_nobg.png';
 
 
 
@@ -12,8 +13,8 @@ const Nav = (props) =>{
     return (
        <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-start px-5">
-          <a class="navbar-brand" href="#" id="about" onClick={pageChange}>
-            <img src={logo} width="222" height="155"/>
+          <a class="navbar-brand" id="about" onClick={pageChange}>
+            <img id="logo" src={name} width="300" height="255"/>
           </a>
       
          </div>
@@ -44,10 +45,3 @@ const Nav = (props) =>{
 };
 
 export default Nav;
-
-
-{/* /      <div>
-// <a href="#" id="about" onClick={pageChange}>About Me</a>
-// <a href="#" id="portfolio" onClick={pageChange} >Portfolio</a>
-// <a href="#" id="contact" onClick={pageChange}>Contact Me</a>
-//         </div> */}
