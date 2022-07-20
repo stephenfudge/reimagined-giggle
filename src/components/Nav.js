@@ -1,4 +1,7 @@
+import './Nav.css';
 import logo from '../images/name.png'
+
+
 
 const Nav = (props) =>{
    function pageChange(event){

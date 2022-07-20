@@ -1,10 +1,10 @@
-import logo from '../images/name.png'
+import stephen from '../images/stephen1.png'
 
 const AboutMe = () => {
     return(
-    <div>
+    <div class="aboutme">
 <header>
-    <img src={logo} />
+    <img src={stephen} alt="About Me Image of Stephen" height="200" width="200" style={{ alignItems: "center" }}/>
     </header>
    <div>
   <p> 

@@ -1,7 +1,12 @@
+import './Footer.css';
+
+
 const Footer = () => {
     return(
         <div>
-            FOOOTER I MADE THIS
+         <a href="https://github.com/stephenfudge">GitHub</a>
+
+         <a href="https://www.linkedin.com/in/stephenfudge/">LinkedIn</a>
         </div>
     )
 };
