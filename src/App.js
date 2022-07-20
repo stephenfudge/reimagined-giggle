@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 import AboutMe from './pages/AboutMe';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
+import Resume from './pages/Resume';
 
 function App() {
   const [page, setPage] = useState('about');
@@ -22,6 +23,8 @@ function App() {
           return <Contact />
           case "portfolio":
             return <Portfolio />
+            case "resume":
+              return <Resume />
     } 
 
   }

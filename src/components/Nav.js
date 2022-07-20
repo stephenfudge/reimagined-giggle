@@ -29,6 +29,10 @@ const Nav = (props) =>{
               Portfolio
             </a>
 
+            <a class="navbar-item" id="resume" onClick={pageChange}>
+              Resume
+            </a>
+      
             <a class="navbar-item" id="contact" onClick={pageChange}>
               Contact Me
             </a>

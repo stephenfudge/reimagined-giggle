@@ -1,4 +1,5 @@
-import stephen from '../images/stephen1.png'
+import stephen from '../images/stephen1.png';
+import './AboutMe.css';
 
 const AboutMe = () => {
     return(
