@@ -14,7 +14,7 @@ const Nav = (props) =>{
        <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-start px-5">
           <a class="navbar-brand" id="about" onClick={pageChange}>
-            <img id="logo" src={name} width="300" height="255"/>
+            <img id="logo" src={name} width="300" height="255" />
           </a>
       
          </div>
@@ -26,8 +26,8 @@ const Nav = (props) =>{
               About Me
             </a>
       
-            <a class="navbar-item" id="portfolio" onClick={pageChange}>
-              Portfolio
+            <a class="navbar-item" id="projects" onClick={pageChange}>
+              Projects
             </a>
 
             <a class="navbar-item" id="resume" onClick={pageChange}>

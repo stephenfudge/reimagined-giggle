@@ -9,7 +9,7 @@ import Footer from './components/Footer';
 
 import AboutMe from './pages/AboutMe';
 import Contact from './pages/Contact';
-import Portfolio from './pages/Portfolio';
+import Projects from './pages/Projects';
 import Resume from './pages/Resume';
 
 function App() {
@@ -21,8 +21,8 @@ function App() {
         return <AboutMe />
         case "contact":
           return <Contact />
-          case "portfolio":
-            return <Portfolio />
+          case "projects":
+            return <Projects />
             case "resume":
               return <Resume />
     } 

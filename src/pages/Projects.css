@@ -1,0 +1,15 @@
+/* Portfolio */
+
+.project-images{
+    height: 250px;
+    width: 250px;
+}
+
+.project-body{
+    background-color: #25283D;
+    color: #426A5A;
+}
+
+.project-name{
+    text-decoration: solid;
+}
