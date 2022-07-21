@@ -12,3 +12,35 @@
 .project-name{
     text-decoration: solid;
 }
+
+/* 
+@media only screen and (max-width: 1300px) {
+    nav {
+      position: static;
+      display: block;
+      z-index: 100;
+      margin: 0 10px;
+      font-size: 2rem;
+    }
+    header h1 {
+      display: block;
+      height: 30px;
+    }
+  }
+  @media only screen and (max-width: 900px) {
+    nav {
+      position: static;
+      display: block;
+      z-index: 100;
+      margin: 0 10px;
+      font-size: 1.3rem;
+    }
+    header h1 {
+      display: block;
+      margin: 5px 10px;
+      height: 15px;
+      width: 100%;
+      text-align: center;
+      font-size: 2.3rem;
+    }
+  } */

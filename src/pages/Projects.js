@@ -39,7 +39,8 @@ export default function Projects() {
           alignItems: 'center',
           columnGap: 3,
           rowGap: 1,
-          gridTemplateColumns: 'repeat(3, 1fr)',
+          gridTemplateColumns: 'repeat(3, 1fr)',  
+          // for other sizes gridTemplateColumns repeat(2,1fr), (1, 1fr)
         }}
       >
         <Item>
