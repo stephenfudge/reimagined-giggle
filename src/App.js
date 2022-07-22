@@ -20,7 +20,7 @@ import Nav from './componentsSemantics/Nav';
 import AboutMe from './pagesSemantic/AboutMe';
 import Contact from './pagesSemantic/Contact';
 import Projects from './pagesSemantic/Projects';
-import Resume from './pagesSemantic/Resume'
+import Resume from './pagesSemantic/Resume';
 
 
 

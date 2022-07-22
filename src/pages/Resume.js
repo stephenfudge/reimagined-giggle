@@ -25,7 +25,7 @@ const Resume = () =>{
             <li></li>
            </ul>
 
-           <h4>Look At Resume <a href={Resume}></a></h4> <h4>Download Resume <a href={Resume} download></a></h4>
+           <h4><a href={Resume}>Look At Resume </a></h4> <h4><a href={Resume} download>Download Resume</a></h4>
         </div>
     )
 }
