@@ -1,12 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
 import 'bulma/css/bulma.min.css';
-// import 'semantic-ui-css/semantic.min.css';
-
+// import '../semantic/dist/semantic.min.css';
 
 import { useState } from 'react';
 
-import Nav from './components/Nav';
+// import Nav from './components/Nav';
 import Footer from './components/Footer';
 
 // first set
@@ -16,10 +15,14 @@ import Footer from './components/Footer';
 // import Resume from './pages/Resume';
 
 // semantic attempts
+import Nav from './componentsSemantics/Nav';
+// import Footer from './componentsSemantics/Footer';
 import AboutMe from './pagesSemantic/AboutMe';
 import Contact from './pagesSemantic/Contact';
 import Projects from './pagesSemantic/Projects';
 import Resume from './pagesSemantic/Resume'
+
+
 
 function App() {
   const [page, setPage] = useState('about');

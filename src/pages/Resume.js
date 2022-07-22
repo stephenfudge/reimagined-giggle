@@ -1,4 +1,5 @@
 import './Resume.css';
+import Resume from '../images/resume/StephenFudge_resume'
 
 const Resume = () =>{
     return(
@@ -24,7 +25,7 @@ const Resume = () =>{
             <li></li>
            </ul>
 
-           <h4>Look at my resume <a href="https://drive.google.com/file/d/1OTxs_RoH6p4-IEU2fXkdE1soVL1L7Vkm/view?usp=sharing" target="_blank">here</a></h4>
+           <h4>Look At Resume <a href={Resume}></a></h4> <h4>Download Resume <a href={Resume} download></a></h4>
         </div>
     )
 }
