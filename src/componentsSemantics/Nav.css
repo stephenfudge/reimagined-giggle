@@ -14,11 +14,11 @@
     color: #CB429F;
 } */
 
-#links{
+.links{
     color: #CB429F;
 }
 
-/* #links.active{
+.links.active{
     background-color: #D30C7B;
-} */
+}
 

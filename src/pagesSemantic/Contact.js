@@ -3,6 +3,7 @@ import emailjs from '@emailjs/browser';
 
 // import '../pages/Contact.css';
 
+import './Contact.css';
 
 
 const Contact = () => {
@@ -24,23 +25,24 @@ const Contact = () => {
 
 
     return( 
-        <form class="ui form" ref={form} onSubmit={sendEmail}>
-  <div class="field">
-    <label> Name</label>
+      <div className='contactform'>
+        <form className="ui form color:pink" ref={form} onSubmit={sendEmail}>
+  <div className="eight wide field">
+    <label><span className='contact-text'> Name</span></label>
     <input type="text" name="name" placeholder="John Doe" />
   </div>
-  <div class="field">
-    <label>Email</label>
+  <div className="eight wide field">
+    <label><span className='contact-text'>Email</span></label>
     <input type="text" name="email" placeholder="name@email.com" />
   </div>
-  <div class="field">
-    <label>Text</label>
+  <div className="eight wide field">
+    <label><span className='contact-text'>Text</span></label>
     <textarea></textarea>
   </div>
   
-  <button class="ui button" type="submit">Submit</button>
+  <button className="ui button" type="submit">Submit</button>
 </form>
-
+</div>
 
      );
 };
