@@ -2,14 +2,23 @@
     background-color: #25283D;
 }
 
-.item.active{
+/* .item.active{
     background-color: #D30C7B;
-}
+} */
 
 /* #logo{
     margin-left: 40rem;
 } */
 
-.item{
+/* .item{
+    color: #CB429F;
+} */
+
+#links{
     color: #CB429F;
 }
+
+/* #links.active{
+    background-color: #D30C7B;
+} */
+

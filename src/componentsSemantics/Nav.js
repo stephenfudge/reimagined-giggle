@@ -19,8 +19,8 @@ const Nav = (props) =>{
     {/* </div> */}
   </div>
   <div className="four wide column">
-    <div className="ui vertical fluid right tabular menu">
-      <a className="item" id="about" onClick={pageChange}>
+    <div className="ui vertical fluid right tabular menu" id="links">
+      <a className="active item" id="about" onClick={pageChange}>
         About Me
       </a>
       <a className="item" id="projects" onClick={pageChange}>
