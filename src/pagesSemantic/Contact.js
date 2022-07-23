@@ -25,7 +25,7 @@ const Contact = () => {
 
 
     return( 
-      <div className='contactform'>
+      <div className='contactform ui container'>
         <form className="ui form color:pink" ref={form} onSubmit={sendEmail}>
   <div className="eight wide field">
     <label><span className='contact-text'> Name</span></label>

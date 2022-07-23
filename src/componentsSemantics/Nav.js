@@ -11,22 +11,22 @@ const Nav = (props) =>{
    }
    
     return (
-        <div className="ui grid stackable menu" id="menu">
+        <div className="ui grid stackable menu container" id="menu">
         {/* <div class="ui grid"> */}
   <div className="twelve wide stretched column">
     {/* <div className="ui segment"> */}
-      <img src={name} />
+      <img src={name} alt="Logo of my name"/>
     {/* </div> */}
   </div>
   <div className="four wide column">
     <div className="ui vertical fluid right tabular menu" id="links">
-      <a className="active item" id="about" onClick={pageChange}>
+      <a className="item" id="about" onClick={pageChange}>
      <span className="links"> About Me </span>  
       </a>
       <a className="item" id="projects" onClick={pageChange}>
         <span className="links"> Projects</span>
       </a>
-      <a className="item" id="resume" onClick={pageChange}>
+      <a className="item" id="resumes" onClick={pageChange}>
         <span className="links"> Resume</span>
       </a>
       <a className="item" id="contact" onClick={pageChange}>
@@ -34,6 +34,9 @@ const Nav = (props) =>{
       </a>
     </div>
   </div>
+      {/* <div className='four wide stretched column'>
+        </div> */}
+
 </div>
 // </div>
     )

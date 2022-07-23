@@ -1,0 +1,19 @@
+.list-text{
+    color: #FFCCC9;
+}
+
+/* #list{
+    list-style-type: bullet;
+} */
+
+#title{
+    color: #D3C1D2;
+}
+
+.headings{
+    color: #426A5A;
+}
+
+li{
+    list-style-type: circle;
+}

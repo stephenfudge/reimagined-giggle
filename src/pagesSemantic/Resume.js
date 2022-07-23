@@ -1,5 +1,5 @@
 // import { Document, } from 'react-pdf';
-import { Component } from 'react'
+// import { Component } from 'react'
 
 import './Resume.css';
 import myResume from '../images/resume/StephenFudge_resume.pdf'
@@ -9,11 +9,19 @@ import myResume from '../images/resume/StephenFudge_resume.pdf'
 
 const Resume = () =>{
     return(
-        <div>
-           <h1>Technical Skills</h1>
-           <h3>Languages: JavaScript </h3>
-           <h3>Tools/Frameworks/Libraries</h3>
-           <ul>
+        <div class="two column doubling ui grid container">
+            <div class="column">
+   </div>
+      <div class="column">
+   <span className='list-text' >
+    <span className='ui big text' id="title">Technical Skills</span>
+    <br />
+          <span className='ui large text'><span className='headings'>Languages: </span><span> JavaScript</span>
+          <br />
+          <span className='headings'> Tools/Frameworks/Libraries:</span></span>
+           <br />
+           <ul id="list">
+            <span className='ui medium text'>
             <li>React</li>
             <li>MongoDB</li>
             <li>MySQL</li>
@@ -29,12 +37,17 @@ const Resume = () =>{
             <li></li>
             <li></li>
             <li></li>
+            </span>
            </ul>
+           </span>
             <br />
-           {/* <h4><a href={myResume}>Look At Resume</a></h4>  */}
-           {/* <Document file="../imagesresume/StephenFudge_resume.pd">My Resume</Document>  */}
-           <h4><a href={myResume}>Download Resume </a></h4>
+
+           <a href={myResume} download>Download My Resume </a>     
            <br />
+   </div>
+   <div class="column">
+   </div>
+           
         </div>
     )
 }

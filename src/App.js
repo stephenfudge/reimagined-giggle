@@ -6,7 +6,7 @@ import 'bulma/css/bulma.min.css';
 import { useState } from 'react';
 
 // import Nav from './components/Nav';
-import Footer from './components/Footer';
+// import Footer from './components/Footer';
 
 // first set
 // import AboutMe from './pages/AboutMe';
@@ -16,7 +16,7 @@ import Footer from './components/Footer';
 
 // semantic attempts
 import Nav from './componentsSemantics/Nav';
-// import Footer from './componentsSemantics/Footer';
+import Footer from './componentsSemantics/Footer';
 import AboutMe from './pagesSemantic/AboutMe';
 import Contact from './pagesSemantic/Contact';
 import Projects from './pagesSemantic/Projects';
@@ -35,7 +35,7 @@ function App() {
           return <Contact />
           case "projects":
             return <Projects />
-            case "resume":
+            case "resumes":
               return <Resume />
     } 
 

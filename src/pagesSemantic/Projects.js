@@ -14,7 +14,7 @@ import pwGen from '../images/work/pwgen.png';
 export default function Projects() {
   return (
    <>
-<div class="ui stackable three column grid">
+<div class="ui stackable three column grid container">
   
   <div class="column">
     <div class="ui segment">
@@ -45,7 +45,7 @@ export default function Projects() {
 
 </div>
 
-<div class="ui stackable three column grid">
+<div class="ui stackable three column grid container">
   <div class="column">
     <div class="ui segment">
     <h2 class="project-name">JavaScript Quiz</h2><br/>
