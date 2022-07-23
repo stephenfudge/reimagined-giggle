@@ -5,14 +5,26 @@
     width: 250px;
 }
 
-.project-body{
-    color: #426A5A;
+.imagebackground{
+   background-color: #25283D;
 }
 
 .project-name{
-    text-decoration: solid;
+  color: #426A5A
 }
 
+.project-links{
+color: #CB429F;
+}
+
+
+#title2{
+  color: #FFCCC9;
+}
+
+#title3{
+  color: #D3C1D2;
+}
 /* 
 @media only screen and (max-width: 1300px) {
     nav {
