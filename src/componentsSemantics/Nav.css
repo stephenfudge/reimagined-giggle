@@ -1,24 +1,28 @@
-#menu{
+#navbar{
     background-color: #25283D;
+    color: #CB429F;
 }
 
-/* .item.active{
-    background-color: #D30C7B;
-} */
-
-/* #logo{
-    margin-left: 40rem;
-} */
-
-/* .item{
+#link{
     color: #CB429F;
-} */
+}
 
+#testingcolor{
+    background-color: #25283D;
+    
+}
+
+span.a{
+    color: #CB429F;
+}
 .links{
     color: #CB429F;
 }
 
-.links.active{
+.menu.active{
     background-color: #D30C7B;
 }
 
+.menu:hover{
+    background-color: aquamarine;
+}

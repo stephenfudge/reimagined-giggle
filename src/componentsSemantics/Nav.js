@@ -11,34 +11,35 @@ const Nav = (props) =>{
    }
    
     return (
-        <div className="ui grid stackable menu container" id="menu">
-        {/* <div class="ui grid"> */}
-  <div className="twelve wide stretched column">
-    {/* <div className="ui segment"> */}
-      <img src={name} alt="Logo of my name"/>
-    {/* </div> */}
-  </div>
-  <div className="four wide column">
-    <div className="ui vertical fluid right tabular menu" id="links">
+      <div id="testingcolor">
+
+        <div className="ui grid stackable menu container" id="navbar">
+          <div className="twelve wide stretched column" >
+             <img src={name} alt="Logo of my name"/>
+            </div>
+  
+          <div className="four wide column">
+    <div className="ui vertical fluid right menu links" id="navbar">
+    <span className="links">
       <a className="item" id="about" onClick={pageChange}>
-     <span className="links"> About Me </span>  
+      About Me
       </a>
       <a className="item" id="projects" onClick={pageChange}>
-        <span className="links"> Projects</span>
+         Projects
       </a>
       <a className="item" id="resumes" onClick={pageChange}>
-        <span className="links"> Resume</span>
+       Resume
       </a>
       <a className="item" id="contact" onClick={pageChange}>
-         <span className="links">Contact Me</span>
+         Contact Me
       </a>
+      </span>
     </div>
   </div>
-      {/* <div className='four wide stretched column'>
-        </div> */}
-
+     
 </div>
-// </div>
+</div>
+
     )
 };
 
@@ -54,4 +55,23 @@ export default Nav;
 // <a className="item" id="projects" onClick={pageChange}>Projects</a>
 // <a className="item" id="resume" onClick={pageChange}>Resume</a>
 // <a className="item" id="contact" onClick={pageChange}>Contact Me</a>
+// </div>
+
+
+
+// <div className="four wide column">
+// <div className="ui vertical fluid right tabular menu" id="links">
+//   <a className="item" id="about" onClick={pageChange}>
+//  <span className="links"> About Me </span>  
+//   </a>
+//   <a className="item" id="projects" onClick={pageChange}>
+//     <span className="links"> Projects</span>
+//   </a>
+//   <a className="item" id="resumes" onClick={pageChange}>
+//     <span className="links"> Resume</span>
+//   </a>
+//   <a className="item" id="contact" onClick={pageChange}>
+//      <span className="links">Contact Me</span>
+//   </a>
+// </div>
 // </div>
