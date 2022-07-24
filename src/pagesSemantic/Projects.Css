@@ -1,30 +1,22 @@
 /* Portfolio */
 
 .project-images{
-    height: 250px;
+    height: 225px;
     width: 250px;
 }
 
-.imagebackground{
+/* .imagebackground{
    background-color: #25283D;
-}
+} */
 
 .project-name{
-  color: #426A5A
+  color: #FFCCC9;
 }
 
 .project-links{
 color: #CB429F;
 }
 
-
-#title2{
-  color: #FFCCC9;
-}
-
-#title3{
-  color: #D3C1D2;
-}
 /* 
 @media only screen and (max-width: 1300px) {
     nav {
