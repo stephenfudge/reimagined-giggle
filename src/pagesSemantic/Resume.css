@@ -1,19 +1,25 @@
-.list-text{
-    color: #FFCCC9;
+/* Elements */
+
+ul{
+    margin-left: 15%;
 }
 
-/* #list{
-    list-style-type: bullet;
-} */
+li{
+    list-style-type: circle;
+}
 
-#title{
-    color: #D3C1D2;
+/* Classes */
+
+.list-text{
+    color: #FFCCC9;
 }
 
 .headings{
     color: #426A5A;
 }
 
-li{
-    list-style-type: circle;
+/* IDs */
+
+#title{
+    color: #D3C1D2;
 }
