@@ -1,20 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
 import 'bulma/css/bulma.min.css';
-// import '../semantic/dist/semantic.min.css';
 
 import { useState } from 'react';
 
-// import Nav from './components/Nav';
-// import Footer from './components/Footer';
-
-// first set
-// import AboutMe from './pages/AboutMe';
-// import Contact from './pages/Contact';
-// import Projects from './pages/Projects';
-// import Resume from './pages/Resume';
-
-// semantic attempts
 import Nav from './componentsSemantics/Nav';
 import Footer from './componentsSemantics/Footer';
 import AboutMe from './pagesSemantic/AboutMe';
