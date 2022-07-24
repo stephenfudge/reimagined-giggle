@@ -22,16 +22,16 @@ const Nav = (props) =>{
     <div className="ui vertical fluid right menu links" id="navbar">
     <span className="links">
       <a className="item" id="about" onClick={pageChange}>
-      About Me
+      <span className="link"> About Me </span>
       </a>
       <a className="item" id="projects" onClick={pageChange}>
-         Projects
+      <span className="link"> Projects </span>
       </a>
       <a className="item" id="resumes" onClick={pageChange}>
-       Resume
+      <span className="link"> Resume </span>
       </a>
       <a className="item" id="contact" onClick={pageChange}>
-         Contact Me
+      <span className="link"> Contact Me </span>  
       </a>
       </span>
     </div>

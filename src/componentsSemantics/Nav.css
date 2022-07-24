@@ -3,7 +3,7 @@
     color: #CB429F;
 }
 
-#link{
+.link{
     color: #CB429F;
 }
 
@@ -25,4 +25,8 @@ span.a{
 
 .menu:hover{
     background-color: aquamarine;
+}
+
+.active{
+    background-color: #D30C7B;
 }
