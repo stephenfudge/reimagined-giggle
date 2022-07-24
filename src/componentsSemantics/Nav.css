@@ -1,32 +1,16 @@
-#navbar{
-    background-color: #25283D;
-    color: #CB429F;
-}
+/* Classes */
 
 .link{
     color: #CB429F;
 }
 
-#testingcolor{
+/* IDs */
+
+#navbar{
     background-color: #25283D;
-    
 }
 
-span.a{
-    color: #CB429F;
-}
-.links{
-    color: #CB429F;
-}
-
-.menu.active{
-    background-color: #D30C7B;
-}
-
-.menu:hover{
-    background-color: aquamarine;
-}
-
-.active{
-    background-color: #D30C7B;
+#navbar-links{
+    background-color: #25283D;
+    text-align: center;
 }
