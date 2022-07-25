@@ -1,17 +1,46 @@
 /* Nav Bar */
 
 .navbar{
-    background-color: #25283D;
+    background-color: hsl(233, 24%, 19%);
 }
 
-.navbar-item.active{
+/* .navbar-item.active{
     background-color: #D30C7B;
-}
-
-/* #logo{
-    margin-left: 40rem;
 } */
 
+
+/* 
 .navbar-item{
     color: #CB429F;
-}
+} */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    /* background-color: #f1f1f1; */
+  }
+  
+  li a {
+    display: block;
+    /* color: #000; */
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: hsl(303, 17%, 79%);
+    color: white;
+  }
+
+  .active {
+    background-color: #426A5A;
+    color: white;
+  }
+
+/* 
+  .links{
+    color: #CB429F;
+  } */

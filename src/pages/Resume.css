@@ -1,0 +1,23 @@
+.resume-container{
+    display: grid;
+    justify-content: center;
+}
+
+
+
+/* li{
+    list-style-type: circle;
+} */
+
+.list-text{
+   color: #FFCCC9;
+   list-style-type: circle;
+}
+
+.headings{
+    color: #426A5A;
+}
+
+#title{
+    color: #D3C1D2;
+}

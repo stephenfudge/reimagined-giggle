@@ -1,31 +1,27 @@
 import './Resume.css';
-import Resume from '../images/resume/StephenFudge_resume'
+import myResume from '../images/resume/StephenFudge_resume.pdf'
 
 const Resume = () =>{
     return(
-        <div>
-           <h1>Technical Skills</h1>
-           <h3>Languages: JavaScript </h3>
-           <h3>Tools/Frameworks/Libraries</h3>
-           <ul>
+        <div className='resume-container'>
+           <h1 id='title'>Technical Skills</h1>
+           <h3 className='headings'>Languages:</h3><h3 className='list-text'> JavaScript </h3>
+           <h3 className='headings'>Tools/Frameworks/Libraries</h3>
+           <ul className='list-text'>
             <li>React</li>
             <li>MongoDB</li>
             <li>MySQL</li>
             <li>GraphQL</li>
-            <li>OOP</li>
             <li>NodeJS</li>
             <li>Express.JS</li>
             <li>Object Relational Mapping</li>
-            <li> HTML5</li>
-            <li>CSS3</li>
+            <li>OOP</li>
             <li>Bootstrap</li>
             <li>Bulma</li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Handlebars.JS</li>
            </ul>
 
-           <h4><a href={Resume}>Look At Resume </a></h4> <h4><a href={Resume} download>Download Resume</a></h4>
+           <h4><a className='links' href={myResume} download>Download Resume</a></h4>
         </div>
     )
 }
