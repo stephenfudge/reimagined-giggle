@@ -1,7 +1,10 @@
 /* Nav Bar */
 
 .navbar{
+    padding: 3%;
     background-color: hsl(233, 24%, 19%);
+    display: flex;
+    justify-content: space-around;
 }
 
 /* .navbar-item.active{
@@ -22,7 +25,13 @@ ul {
     /* background-color: #f1f1f1; */
   }
   
-  li a {
+  button{
+    background-color: hsl(233, 24%, 19%);
+    color: #CB429F;
+    text-align: center;
+  }
+
+  li button {
     display: block;
     /* color: #000; */
     padding: 8px 16px;
@@ -30,7 +39,7 @@ ul {
   }
   
   /* Change the link color on hover */
-  li a:hover {
+  li button:hover {
     background-color: hsl(303, 17%, 79%);
     color: white;
   }

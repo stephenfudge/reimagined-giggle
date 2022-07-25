@@ -13,31 +13,31 @@ const Nav = (props) =>{
       <div className='navbar'>
       
         <div>
-            <img id="logo" src={name} width="300" height="255" />
+            <img id="logo" src={name} alt="logo of my name"/>
     
          </div>
       
         <div className="navbar-menu">
           <div className='links'>
           <ul>
-          <li> <a class="navbar-item" id="about" onClick={pageChange}>
+          <li> <button id="about" onClick={pageChange}>
               About Me
-            </a>
+            </button>
       </li>
       <li>
-            <a class="navbar-item" id="projects" onClick={pageChange}>
+            <button id="projects" onClick={pageChange}>
               Projects
-            </a>
+            </button>
       </li>
       <li>
-                    <a class="navbar-item" id="resumes" onClick={pageChange}>
+            <button id="resumes" onClick={pageChange}>
               Resume
-            </a>
+            </button>
       </li>
       <li>
-            <a class="navbar-item" id="contact" onClick={pageChange}>
+         <button id="contact" onClick={pageChange}>
               Contact Me
-            </a>
+            </button>
           </li>
             </ul>
          </div>

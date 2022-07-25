@@ -1,0 +1,17 @@
+/* Nav Bar */
+
+.navbar{
+    background-color: #25283D;
+}
+
+.navbar-item.active{
+    background-color: #D30C7B;
+}
+
+/* #logo{
+    margin-left: 40rem;
+} */
+
+.navbar-item{
+    color: #CB429F;
+}
