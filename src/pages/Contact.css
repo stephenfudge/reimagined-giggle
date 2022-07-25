@@ -1,0 +1,22 @@
+.form-container{
+    display: flex;
+    justify-content: center;
+    color: #FFCCC9;
+    width: 100%;
+    /* padding: 10%; */
+}
+/* 
+label{
+    padding: 10%;
+} */
+
+form ul li{
+    margin: 10px;
+}
+
+#submit-button{
+    padding: 8%;
+    width: 100%;
+    background-color: hsl(303, 17%, 79%);
+    color: #426A5A;
+}
