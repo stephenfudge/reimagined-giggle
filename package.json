@@ -1,8 +1,8 @@
 {
-  "homepage": "https://stephenfudge.github.io/reimagined-giggle/",
   "name": "reimagined-giggle",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://stephenfudge.github.io/reimagined-giggle/",
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
     "@mui/icons-material": "^5.8.4",
