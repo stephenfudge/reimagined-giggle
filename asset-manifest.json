@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/reimagined-giggle/static/css/main.de909e55.css",
+    "main.js": "/reimagined-giggle/static/js/main.cd5a51a0.js",
+    "static/js/787.e18cd288.chunk.js": "/reimagined-giggle/static/js/787.e18cd288.chunk.js",
+    "static/media/fifa.png": "/reimagined-giggle/static/media/fifa.0f984f7e4ccc9ee84a3c.png",
+    "static/media/conversations.png": "/reimagined-giggle/static/media/conversations.cfd2fbdb5a03f9bd8838.png",
+    "static/media/weather.png": "/reimagined-giggle/static/media/weather.cc07f9f8861eb57e17ac.png",
+    "static/media/dayplanner.png": "/reimagined-giggle/static/media/dayplanner.3cd2ab6ed0982fe416f5.png",
+    "static/media/stephen1.png": "/reimagined-giggle/static/media/stephen1.7fb1ab47178b78562c25.png",
+    "static/media/StephenFudge_resume.pdf": "/reimagined-giggle/static/media/StephenFudge_resume.c4658dd85ac7e639d302.pdf",
+    "static/media/quiz.png": "/reimagined-giggle/static/media/quiz.a3b33067f05dce9e70d8.png",
+    "static/media/name_nobg.png": "/reimagined-giggle/static/media/name_nobg.6ee075654bed7302448e.png",
+    "static/media/pwgen.png": "/reimagined-giggle/static/media/pwgen.aa25cbf89939def02f6b.png",
+    "index.html": "/reimagined-giggle/index.html",
+    "main.de909e55.css.map": "/reimagined-giggle/static/css/main.de909e55.css.map",
+    "main.cd5a51a0.js.map": "/reimagined-giggle/static/js/main.cd5a51a0.js.map",
+    "787.e18cd288.chunk.js.map": "/reimagined-giggle/static/js/787.e18cd288.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de909e55.css",
+    "static/js/main.cd5a51a0.js"
+  ]
+}
