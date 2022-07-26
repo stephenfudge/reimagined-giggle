@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/reimagined-giggle/static/css/main.de909e55.css",
-    "main.js": "/reimagined-giggle/static/js/main.cd5a51a0.js",
+    "main.css": "/reimagined-giggle/static/css/main.47ffe323.css",
+    "main.js": "/reimagined-giggle/static/js/main.2f8b0d18.js",
     "static/js/787.e18cd288.chunk.js": "/reimagined-giggle/static/js/787.e18cd288.chunk.js",
     "static/media/fifa.png": "/reimagined-giggle/static/media/fifa.0f984f7e4ccc9ee84a3c.png",
     "static/media/conversations.png": "/reimagined-giggle/static/media/conversations.cfd2fbdb5a03f9bd8838.png",
@@ -13,12 +13,12 @@
     "static/media/name_nobg.png": "/reimagined-giggle/static/media/name_nobg.6ee075654bed7302448e.png",
     "static/media/pwgen.png": "/reimagined-giggle/static/media/pwgen.aa25cbf89939def02f6b.png",
     "index.html": "/reimagined-giggle/index.html",
-    "main.de909e55.css.map": "/reimagined-giggle/static/css/main.de909e55.css.map",
-    "main.cd5a51a0.js.map": "/reimagined-giggle/static/js/main.cd5a51a0.js.map",
+    "main.47ffe323.css.map": "/reimagined-giggle/static/css/main.47ffe323.css.map",
+    "main.2f8b0d18.js.map": "/reimagined-giggle/static/js/main.2f8b0d18.js.map",
     "787.e18cd288.chunk.js.map": "/reimagined-giggle/static/js/787.e18cd288.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.de909e55.css",
-    "static/js/main.cd5a51a0.js"
+    "static/css/main.47ffe323.css",
+    "static/js/main.2f8b0d18.js"
   ]
 }
