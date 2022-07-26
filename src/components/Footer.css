@@ -7,11 +7,11 @@
 
 .footer-link{
     color: #CB429F;
-    /* padding: 10em; */
     font-size: large;
 }
 
-/* i{
-    color: #CB429F;
-    font-size: 80px;
-} */
+
+.footer-link:hover{
+    color: hsl(319, 57%, 33%);
+}
+

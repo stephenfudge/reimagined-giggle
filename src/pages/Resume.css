@@ -1,4 +1,4 @@
-.resume-container{
+.resume-container {
     display: grid;
     justify-content: center;
 }
@@ -9,15 +9,20 @@
     list-style-type: circle;
 } */
 
-.list-text{
-   color: #FFCCC9;
-   list-style-type: circle;
+.list-text {
+    color: #FFCCC9;
+    list-style-type: circle;
+
 }
 
-.headings{
+.headings {
     color: #426A5A;
 }
 
-#title{
+#title {
     color: #D3C1D2;
+}
+
+li {
+    margin-left: 25%;
 }
