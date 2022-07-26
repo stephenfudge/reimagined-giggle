@@ -1,16 +1,17 @@
-/* About Me */
+/* Element */
+
+img{
+    align-items: left;
+}
+
+/* Classes */
 
 .aboutme{
-    /* background-color: #D5B9B2; */
-    color: #FFCCC9;
+    color: hsl(3, 100%, 89%);
     text-align: center;
     margin: auto;
     padding:0%
     
-}
-
-img{
-    align-items: left;
 }
 
 .aboutme-text{

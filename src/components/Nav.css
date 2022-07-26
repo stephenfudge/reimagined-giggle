@@ -9,14 +9,13 @@ ul {
 
 button {
   background-color: hsl(233, 24%, 19%);
-  color: #CB429F;
+  color: hsl(319, 57%, 53%);
   text-align: center;
-  border-color: #D3C1D2;
+  border-color: hsl(303, 17%, 79%);
 }
 
 li button {
   display: block;
-  /* color: #000; */
   padding: 8px 16px;
   text-decoration: none;
 }
@@ -30,14 +29,18 @@ li button {
   justify-content: space-around;
 }
 
-/* Sub Classes */
+/* Psuedo Classes */
 
 li button:hover {
   background-color: hsl(303, 17%, 79%);
-  color: white;
+  color: hsl(156, 23%, 34%);
+  cursor: pointer;
 }
 
-
-li button:active {
-  background-color: aqua;
+/* if the class and the id are the same then it will change the buttom color for the active page */
+.about #about, 
+.projects #projects,
+.resumes #resumes,
+.contact #contact{
+  background-color: hsl(3, 100%, 89%);
 }

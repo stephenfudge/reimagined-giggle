@@ -8,6 +8,8 @@ const Nav = (props) =>{
     const id = event.target.id;
     props.setPage(id);
    }
+
+   
    
     return (
       <div className='navbar'>
@@ -19,7 +21,7 @@ const Nav = (props) =>{
       
         <div className="navbar-menu">
           <div className='links'>
-          <ul>
+          <ul className={props.page}>
           <li> <button id="about" onClick={pageChange}>
               About Me
             </button>

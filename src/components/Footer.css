@@ -1,17 +1,19 @@
+/* Classes */
 .footer{
-    background-color: #25283D;
+    background-color: hsl(233, 24%, 19%);
     display: flex;
     justify-content: space-between;
-    margin: 10%;
+    margin: 0 5em;
+    padding-top: 7em;
 }
 
 .footer-link{
-    color: #CB429F;
-    font-size: large;
+    color: hsl(156, 23%, 54%);
 }
 
 
 .footer-link:hover{
     color: hsl(319, 57%, 33%);
+
 }
 

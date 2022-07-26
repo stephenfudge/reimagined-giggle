@@ -1,28 +1,33 @@
+/* Elements */
+
+li {
+    margin-left: 2.5em;
+}
+
+h3{
+    margin: 0;
+    margin-bottom: .25em;
+}
+
+/* Classes */
+
 .resume-container {
     display: grid;
     justify-content: center;
 }
 
-
-
-/* li{
-    list-style-type: circle;
-} */
-
 .list-text {
-    color: #FFCCC9;
+    color: hsl(3, 100%, 89%);
     list-style-type: circle;
 
 }
 
 .headings {
-    color: #426A5A;
+    color: hsl(156, 23%, 34%);
 }
+
+/* IDs */
 
 #title {
-    color: #D3C1D2;
-}
-
-li {
-    margin-left: 25%;
+    color: hsl(303, 17%, 79%);
 }

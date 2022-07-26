@@ -5,7 +5,7 @@ const Resume = () =>{
     return(
         <div className='resume-container'>
            <h1 id='title'>Technical Skills</h1>
-           <h3 className='headings'>Languages:</h3><h3 className='list-text'> JavaScript </h3>
+           <h3 className='headings'>Languages:<span className='list-text'> JavaScript</span> </h3>
            <h3 className='headings'>Tools/Frameworks/Libraries</h3>
            <ul className='list-text'>
             <li>React</li>

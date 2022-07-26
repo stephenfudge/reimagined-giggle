@@ -1,6 +1,6 @@
 import {useRef } from 'react';
 import emailjs from '@emailjs/browser';
-
+import { validateEmail } from '../utils/helpers';
 import './Contact.css';
 
 
@@ -21,6 +21,11 @@ const Contact = () => {
         });
     };
 
+const emailIsValid = (e) =>{
+  if (!validateEmail(e.value)){
+    alert('Please enter an actual email');
+  };
+};
 
 
     return(
@@ -29,18 +34,18 @@ const Contact = () => {
           <ul>
         <li>    
         <label>Name</label>
-        <input type="text" name="user_name" />
+        <input type="text" name="user_name"/>
         </li>
-        {/* <br /> */}
+        
         <li>
         <label>Email</label>
-        <input type="email" name="user_email" />
+        <input type="email" name="user_email" onBlur={emailIsValid} />
         </li>
-        {/* < br/> */}
+       
         <li>
           <label>Message</label>
          <textarea name="message" />
-                {/* <br /> */}
+              
         </li>
         <li>
         <input id="submit-button" type="submit" value="SUBMIT" />

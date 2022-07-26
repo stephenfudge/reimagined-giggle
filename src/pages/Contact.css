@@ -1,22 +1,23 @@
-.form-container{
-    display: flex;
-    justify-content: center;
-    color: #FFCCC9;
-    width: 100%;
-    /* padding: 10%; */
-}
-/* 
-label{
-    padding: 10%;
-} */
+/* Elelemts */
 
 form ul li{
     margin: 10px;
 }
 
+/* Classes */
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    color: hsl(3, 100%, 89%);
+    width: 100%;
+}
+
+/* IDs */
+
 #submit-button{
     padding: 8%;
     width: 100%;
     background-color: hsl(303, 17%, 79%);
-    color: #426A5A;
+    color: hsl(156, 23%, 34%);
 }
