@@ -26,6 +26,11 @@
   text-align: center;
 }
 
+.project-list {
+  list-style-type: none;
+
+}
+
 /* Media Query */
    @media only screen and (min-width: 600px){
     .project-body{
