@@ -20,7 +20,6 @@ const Nav = (props) =>{
          </div>
       
         <div className="navbar-menu">
-          <div className='links'>
           <ul className={props.page}>
           <li> <button id="about" onClick={pageChange}>
               About Me
@@ -42,7 +41,6 @@ const Nav = (props) =>{
             </button>
           </li>
             </ul>
-         </div>
    </div>
       </div>
     )

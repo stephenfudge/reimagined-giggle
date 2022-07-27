@@ -20,16 +20,30 @@ import Resume from './pages/Resume';
 function App() {
   const [page, setPage] = useState('about');
 
+  // function RenderPage(){
+  //   switch(page){
+  //     case "about":
+  //       return <AboutMe />
+  //       case "contact":
+  //         return <Contact />
+  //         case "projects":
+  //           return <Projects />
+  //           case "resumes":
+  //             return <Resume />
+  //   } 
+
   function RenderPage(){
     switch(page){
       case "about":
         return <AboutMe />
-        case "contact":
+       case "contact":
           return <Contact />
           case "projects":
             return <Projects />
             case "resumes":
               return <Resume />
+              default:
+        return <AboutMe />
     } 
 
   }
