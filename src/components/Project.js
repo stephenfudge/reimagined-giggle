@@ -12,19 +12,34 @@ import stocker from '../images/work/stocker.png';
 
 const projects = [
     {
-        id: 4,
-        title: 'Weather Dashboard',
-        image: weather,
-        deployed: 'https://github.com/stephenfudge/stunning-robot',
-        repo: 'https://stephenfudge.github.io/stunning-robot/',
-    },
-    {
         id: 1,
         title: 'Conversation Starters',
         image: conversations,
         deployed: 'https://github.com/danielfu13/flying-kittens17',
         repo: 'https://danielfu13.github.io/flying-kittens17/',
     },
+  {
+        id: 2,
+        title: 'Stocker Inventory Management',
+        image: stocker,
+        deployed: 'https://stockerinventory.herokuapp.com/',
+        repo: 'https://github.com/SuedePritch/furry-leftover-broccoli.git',
+    },
+{
+        id: 3,
+        title: 'FIFA Fan Site',
+        image: fifa,
+        deployed: 'https://vigilant-octo-lamp.herokuapp.com/',
+        repo: 'https://github.com/stephenfudge/vigilant-octo-lamp',
+    },
+    {
+        id: 4,
+        title: 'Weather Dashboard',
+        image: weather,
+        deployed: 'https://github.com/stephenfudge/stunning-robot',
+        repo: 'https://stephenfudge.github.io/stunning-robot/',
+    },
+  
     {
         id: 5,
         title: '9-5 Day Planner',
@@ -32,13 +47,7 @@ const projects = [
         deployed: 'https://stephenfudge.github.io/glowing-octo-waffle/',
         repo: 'https://github.com/stephenfudge/glowing-octo-waffle',
     },
-    {
-        id: 2,
-        title: 'Stocker Inventory Management',
-        image: stocker,
-        deployed: 'https://stockerinventory.herokuapp.com/',
-        repo: 'https://github.com/SuedePritch/furry-leftover-broccoli.git',
-    },
+  
     {
         id: 6,
         title: 'JavaScript Quiz',
@@ -46,13 +55,7 @@ const projects = [
         deployed: 'https://stephenfudge.github.io/furry-umbrella/',
         repo: 'https://github.com/stephenfudge/furry-umbrella',
     },
-    {
-        id: 3,
-        title: 'FIFA Fan Site',
-        image: fifa,
-        deployed: 'https://vigilant-octo-lamp.herokuapp.com/',
-        repo: 'https://github.com/stephenfudge/vigilant-octo-lamp',
-    },
+    
     
 ]
 
