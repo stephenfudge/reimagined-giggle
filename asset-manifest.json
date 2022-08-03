@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/reimagined-giggle/static/css/main.c4c65e74.css",
-    "main.js": "/reimagined-giggle/static/js/main.d5de0274.js",
+    "main.js": "/reimagined-giggle/static/js/main.689ec66b.js",
     "static/js/787.e18cd288.chunk.js": "/reimagined-giggle/static/js/787.e18cd288.chunk.js",
     "static/media/fifa.png": "/reimagined-giggle/static/media/fifa.0f984f7e4ccc9ee84a3c.png",
     "static/media/stocker.png": "/reimagined-giggle/static/media/stocker.99b2561695cec1df0723.png",
@@ -15,11 +15,11 @@
     "static/media/pwgen.png": "/reimagined-giggle/static/media/pwgen.aa25cbf89939def02f6b.png",
     "index.html": "/reimagined-giggle/index.html",
     "main.c4c65e74.css.map": "/reimagined-giggle/static/css/main.c4c65e74.css.map",
-    "main.d5de0274.js.map": "/reimagined-giggle/static/js/main.d5de0274.js.map",
+    "main.689ec66b.js.map": "/reimagined-giggle/static/js/main.689ec66b.js.map",
     "787.e18cd288.chunk.js.map": "/reimagined-giggle/static/js/787.e18cd288.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c4c65e74.css",
-    "static/js/main.d5de0274.js"
+    "static/js/main.689ec66b.js"
   ]
 }
