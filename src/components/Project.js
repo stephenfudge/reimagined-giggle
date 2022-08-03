@@ -8,45 +8,46 @@ import conversations from '../images/work/conversations.png';
 import dayPlanner from '../images/work/dayplanner.png';
 import fifa from '../images/work/fifa.png';
 import pwGen from '../images/work/pwgen.png';
+import stocker from '../images/work/stocker.png';
 
 const projects = [
     {
-        id: 1,
+        id: 4,
         title: 'Weather Dashboard',
         image: weather,
         deployed: 'https://github.com/stephenfudge/stunning-robot',
         repo: 'https://stephenfudge.github.io/stunning-robot/',
     },
     {
-        id: 2,
+        id: 1,
         title: 'Conversation Starters',
         image: conversations,
         deployed: 'https://github.com/danielfu13/flying-kittens17',
         repo: 'https://danielfu13.github.io/flying-kittens17/',
     },
     {
-        id: 3,
+        id: 5,
         title: '9-5 Day Planner',
         image: dayPlanner,
         deployed: 'https://stephenfudge.github.io/glowing-octo-waffle/',
         repo: 'https://github.com/stephenfudge/glowing-octo-waffle',
     },
     {
-        id: 4,
-        title: 'Password Generator',
-        image: pwGen,
-        deployed: 'https://stephenfudge.github.io/turbo-robot/',
-        repo: 'https://github.com/stephenfudge/turbo-robot',
+        id: 2,
+        title: 'Stocker Inventory Management',
+        image: stocker,
+        deployed: 'https://stockerinventory.herokuapp.com/',
+        repo: 'https://github.com/SuedePritch/furry-leftover-broccoli.git',
     },
     {
-        id: 5,
+        id: 6,
         title: 'JavaScript Quiz',
         image: quiz,
         deployed: 'https://stephenfudge.github.io/furry-umbrella/',
         repo: 'https://github.com/stephenfudge/furry-umbrella',
     },
     {
-        id: 6,
+        id: 3,
         title: 'FIFA Fan Site',
         image: fifa,
         deployed: 'https://vigilant-octo-lamp.herokuapp.com/',
