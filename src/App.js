@@ -22,7 +22,7 @@ function App() {
             case "resumes":
               return <Resume />
               default:
-                      return <AboutMe />
+               return <AboutMe />
     } 
 
 

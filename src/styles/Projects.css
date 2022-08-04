@@ -1,8 +1,8 @@
 /* Classes */
 
 .project-images{
-    height: 250px;
-    width: 250px;
+    height: 350px;
+    width: 400px;
 }
 
 .project-body{
@@ -28,7 +28,7 @@
 
 .project-list {
   list-style-type: none;
-
+  color: hsl(3, 70%, 69%);
 }
 
 /* Media Query */
@@ -37,9 +37,9 @@
       grid-template-columns: repeat(2,1fr);
     }
   }
-
+/* 
   @media only screen and (min-width: 900px) {
     .project-body{
     grid-template-columns: repeat(3,1fr);
     }
-  }
+  } */

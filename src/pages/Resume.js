@@ -8,7 +8,7 @@ const Resume = () =>{
            <h3 className='headings'>Languages:<span className='list-text'> JavaScript</span> </h3>
            <h3 className='headings'>Tools/Frameworks/Libraries</h3>
            <ul className='list-text'>
-            <li>ReactJS</li>
+            <li>React</li>
             <li>MongoDB</li>
             <li>MySQL</li>
             <li>GraphQL</li>
