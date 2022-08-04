@@ -1,4 +1,5 @@
-import './Nav.css';
+import '../styles/Nav.css';
+
 import name from '../images/name_nobg.png';
 
 
@@ -35,12 +36,7 @@ const Nav = (props) =>{
               Resume
             </button>
       </li>
-      {/* <li>
-         <button id="contact" onClick={pageChange}>
-              Contact Me
-            </button>
-          </li> */}
-            </ul>
+         </ul>
    </div>
       </div>
     )

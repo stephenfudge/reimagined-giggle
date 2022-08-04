@@ -1,4 +1,4 @@
-import './Resume.css';
+import '../styles/Resume.css';
 import myResume from '../images/resume/StephenFudge_resume.pdf'
 
 const Resume = () =>{
@@ -8,7 +8,7 @@ const Resume = () =>{
            <h3 className='headings'>Languages:<span className='list-text'> JavaScript</span> </h3>
            <h3 className='headings'>Tools/Frameworks/Libraries</h3>
            <ul className='list-text'>
-            <li>React</li>
+            <li>ReactJS</li>
             <li>MongoDB</li>
             <li>MySQL</li>
             <li>GraphQL</li>
