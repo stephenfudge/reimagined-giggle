@@ -1,8 +1,13 @@
 /* Classes */
+/* 
+.project-container{
+  justify-content: baseline;
+  overflow-x: hidden;
+} */
 
 .project-images{
     height: 350px;
-    width: 400px;
+    width: 450px;
 }
 
 .project-body{

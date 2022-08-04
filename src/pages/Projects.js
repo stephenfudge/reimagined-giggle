@@ -16,7 +16,7 @@ const projects = [
         image: conversations,
         deployed: 'https://github.com/danielfu13/flying-kittens17',
         repo: 'https://danielfu13.github.io/flying-kittens17/',
-        description: "A website to help with conversation starters in a Post-Covid world.",
+        description: "A website to help with conversation starters in a Post-Pandemic world.",
         technologies: "HTML5, CSS3, Bulma, JavaScript, Third Party APIs",
     },
   {
@@ -68,8 +68,8 @@ const projects = [
 
 const Projects = () => {
     return(
+        <div className='project-container'>
 <div className='project-body'>
-{/* <ul> */}
     {projects.map((project) => (
         <li className='project-list' key={project.id}>
             <div>
@@ -77,15 +77,15 @@ const Projects = () => {
                 <h2 className='project-name'>{[project.title]}</h2><br />
                 <h3 className="project-description">{project.description}</h3>
                 <img className='project-images' src={project.image} alt='screenshot of {project.title}'/> <br />
-                <p>Technologies Used: {project.technologies}</p>
+                <p id="project-tech">Technologies Used: {project.technologies}</p>
                 <a href={project.deployed} target="_blank" rel="noopener noreferrer">See it live!</a><br/>
                 <a href={project.repo} target="_blank" rel="noopener noreferrer">Take a look at the GitHub Repository</a>
             </div>
             </div>
         </li>
     ))}
-{/* </ul> */}
 
+</div>
 </div>
     )
 
