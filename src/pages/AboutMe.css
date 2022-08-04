@@ -19,3 +19,7 @@ img{
     display: grid;
     justify-content: space-evenly;
 }
+
+#email{
+    color: hsl(319, 57%, 53%); 
+}

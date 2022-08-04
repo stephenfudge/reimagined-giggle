@@ -35,11 +35,11 @@ const Nav = (props) =>{
               Resume
             </button>
       </li>
-      <li>
+      {/* <li>
          <button id="contact" onClick={pageChange}>
               Contact Me
             </button>
-          </li>
+          </li> */}
             </ul>
    </div>
       </div>
