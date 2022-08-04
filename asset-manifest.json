@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/reimagined-giggle/static/css/main.c302cb93.css",
-    "main.js": "/reimagined-giggle/static/js/main.c17b41e8.js",
+    "main.css": "/reimagined-giggle/static/css/main.31e391cf.css",
+    "main.js": "/reimagined-giggle/static/js/main.e63bc066.js",
     "static/js/787.e18cd288.chunk.js": "/reimagined-giggle/static/js/787.e18cd288.chunk.js",
     "static/media/fifa.png": "/reimagined-giggle/static/media/fifa.0f984f7e4ccc9ee84a3c.png",
     "static/media/stocker.png": "/reimagined-giggle/static/media/stocker.99b2561695cec1df0723.png",
@@ -11,12 +11,12 @@
     "static/media/StephenFudge_resume.pdf": "/reimagined-giggle/static/media/StephenFudge_resume.f29c5abbbc1221b4bad1.pdf",
     "static/media/name_nobg.png": "/reimagined-giggle/static/media/name_nobg.6ee075654bed7302448e.png",
     "index.html": "/reimagined-giggle/index.html",
-    "main.c302cb93.css.map": "/reimagined-giggle/static/css/main.c302cb93.css.map",
-    "main.c17b41e8.js.map": "/reimagined-giggle/static/js/main.c17b41e8.js.map",
+    "main.31e391cf.css.map": "/reimagined-giggle/static/css/main.31e391cf.css.map",
+    "main.e63bc066.js.map": "/reimagined-giggle/static/js/main.e63bc066.js.map",
     "787.e18cd288.chunk.js.map": "/reimagined-giggle/static/js/787.e18cd288.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c302cb93.css",
-    "static/js/main.c17b41e8.js"
+    "static/css/main.31e391cf.css",
+    "static/js/main.e63bc066.js"
   ]
 }
