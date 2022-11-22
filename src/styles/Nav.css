@@ -7,17 +7,16 @@ ul {
   width: 200px;
 }
 
-button {
-  background-color: hsl(233, 24%, 19%);
-  color: hsl(319, 57%, 53%);
-  text-align: center;
-  border-color: hsl(303, 17%, 79%);
-}
-
 li button {
   display: block;
   padding: 8px 16px;
   text-decoration: none;
+  /* padding: 10px 20px 10px 20px; */
+  background-color: hsl(233, 24%, 19%);
+  color: hsl(319, 57%, 53%);
+  text-align: justify;
+  border-color: hsl(303, 17%, 79%);
+  min-width: 7em;
 }
 
 /* Classes */
