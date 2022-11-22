@@ -21,16 +21,25 @@ li button {
 
 /* Classes */
 
-.navbar {
+/* .navbar {
   padding: 3%;
   background-color: hsl(233, 24%, 19%);
   display: grid;
   grid-template-columns: repeat(1,1fr);
   grid-gap: 1rem;
   grid-auto-flow: row;
-  width: 100%;
+  width: 100vw;
   justify-content: center;
+} */
+
+.navbar {
+  padding: 3%;
+  background-color: hsl(233, 24%, 19%);
+  display: flex;
+  width: 100vw;
+  justify-content: space-evenly;
 }
+
 
 /* Psuedo Classes */
 
@@ -41,17 +50,17 @@ li button:hover {
 }
 
 /* if the class and the id are the same then it will change the buttom color for the active page */
-.about #about, 
+.about #about,
 .projects #projects,
 .resumes #resumes,
-.contact #contact{
+.contact #contact {
   background-color: hsl(3, 100%, 89%);
 }
 
 
 @media only screen and (min-width: 600px) {
-  .navbar{
-    grid-template-columns: repeat(2,1fr);
+  .navbar {
+    grid-template-columns: repeat(2, 1fr);
 
   }
 }
