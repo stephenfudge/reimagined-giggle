@@ -2,3 +2,8 @@
     width: 100%;
     overflow-x: hidden;
 }
+
+div{
+    color: hsl(3, 100%, 89%);
+
+}
