@@ -45,7 +45,7 @@ export default function App() {
   },[])
   return (
     <div>
-      <h1>Redirecting to my new portfolio...</h1>
+      <h1 className="redirect-text">Redirecting to my new portfolio...</h1>
     </div>
   );
 }

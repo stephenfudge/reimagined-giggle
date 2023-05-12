@@ -3,7 +3,8 @@
     overflow-x: hidden;
 }
 
-div{
-    color: hsl(3, 100%, 89%);
+.redirect-text{
+    color: #070600ff;
+    background-color: #f7f7ffff;
 
 }
