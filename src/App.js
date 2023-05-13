@@ -44,8 +44,8 @@ export default function App() {
     window.location.href="https://stephenfudge-portfolio.vercel.app";
   },[])
   return (
-    <div>
-      <h1 className="redirect-text">Redirecting to my new portfolio...</h1>
+    <div className="redirect-text">
+      <h1>Redirecting to my new portfolio...</h1>
     </div>
   );
 }
